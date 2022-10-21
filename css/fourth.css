@@ -1,0 +1,108 @@
+.psychology{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 7%;
+  }
+  .pic-n-text{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  .pic-n-text p{
+    width: 506.69px;
+  height: 140px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #2C1500;
+  
+  
+  }
+  .pic-n-text h3{
+    width: 522px;
+  height: 112px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  
+  color: #2C1500;
+  }
+  /* .pic-n-text img{
+    margin-top: 35px;
+  } */
+  @media (max-width: 900px){
+    .psychology{
+      flex-direction: column;
+      justify-content: none;
+    }
+    .solo-pic{
+      width: 80%;
+      margin: 5% 10% 3% 10%;
+      height: auto;
+    }
+    .pic-n-text h3{
+      width: auto;
+    height: auto;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0 10%;
+    }
+    .pic-n-text p{
+      margin: 5% 10%;
+      width: auto;
+      height: auto;
+    }
+    
+  }
+  @media (max-width: 640px){
+    .pic-n-text img{
+      width: 450px;
+      height: auto;
+    }
+    .pic-n-text h3{
+     
+    font-size: 20px;
+    line-height: 24px;
+    
+    }
+    .pic-n-text p{
+      margin: 5% 10%;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    
+  }
+  @media (max-width: 520px){
+    .pic-n-text img{
+      width: 350px;
+      height: auto;
+      margin-top: 0;
+    }
+    .pic-n-text h3{
+     
+      font-size: 16px;
+      line-height: 20px;
+      
+      }
+      .pic-n-text p{
+        margin: 5% 10%;
+        font-size: 8px;
+        line-height: 12px;
+      }
+    
+  }
+  @media (max-width: 400px){
+    .pic-n-text img{
+      width: 250px;
+    }
+    
+  }

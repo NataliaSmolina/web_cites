@@ -1,0 +1,153 @@
+.footerr{
+    display: flex;
+    border-top: 1px solid #156963;
+    align-items: flex-start;
+    justify-content: space-around;
+  
+    padding: 7% 13% 7% 15%;
+  }
+  .footerr h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #156963;
+  }
+  .footerr h3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+  }
+  .footerr p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  
+  .first{
+    flex: 2;
+    margin: 0 10% 0 0;
+  }
+  .second{
+    flex: 1;
+    margin: 0 10% 0 0;
+  }
+  .third{
+    flex: 1;
+    margin: 0 10% 0 0;
+  }
+  .fourth{
+    flex: 2;
+    margin: 0 10% 0 0;
+  }
+  .in-div{
+    border-radius: 2px;
+    border: 1px solid #F2F2F2;
+    width: auto;
+    height: auto; 
+    margin: 5% 0 5% 0;
+  }
+  .first h3{
+    color: #333333;
+    margin-top: 10%; 
+    margin-bottom: 5%;
+  }
+  .footer-block{
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+  .first p{
+    width: auto;
+    height: auto; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+  }
+  .submit-button{
+    border: none;
+    font-weight: 550;
+    font-size: 15px;
+    width: auto;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    background: #156963;
+    backdrop-filter: blur(10px);
+    border-radius: 2px;
+}
+
+@media(max-width: 900px){
+  .footerr h3{
+    font-size: 16px;
+    line-height: 18px;
+  } 
+  .footerr h2{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .first p{
+    font-size: 10px;
+    line-height: 14px;
+  }
+  
+  .submit-button{
+    font-size: 10px;
+    line-height: 24px;
+  }
+}
+@media(max-width: 700px){
+  .footerr h3{
+    font-size: 14px;
+    line-height: 18px;
+  } 
+  .footerr h2{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .first p{
+    font-size: 8px;
+    line-height: 12px;
+  }
+  
+  .submit-button{
+    font-size: 8px;
+    line-height: 12px;
+  }
+  
+}
+@media(max-width: 580px){
+  .footerr{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+@media(max-width: 371px){
+  .footerr h3{
+    font-size: 12px;
+    line-height: 14px;
+  } 
+  .footerr h2{
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .first p{
+    font-size: 8px;
+    line-height: 12px;
+  }
+  
+  .submit-button{
+    font-size: 8px;
+    line-height: 12px;
+  }
+}

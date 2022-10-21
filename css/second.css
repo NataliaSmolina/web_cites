@@ -1,0 +1,177 @@
+.features{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 7% 6%;
+}
+.feature{
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    margin-right: 3%;
+    
+}
+.feature-last{
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    margin: 0;
+}
+.features h3{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #156963;
+}
+  
+.img-h{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.feature div{
+  display: flex; 
+  justify-content: flex-start;
+}
+.feature p{
+  margin-top: 7%;
+}
+.feature img{
+  color: #156963;
+  height: 48px;
+  width: auto;
+  margin-right: 7%;
+}
+.picture{
+  margin-right: 3%;
+}
+.button a{
+  color: white;
+}
+@media(max-width: 1284px){
+  .feature p{
+    font-size: 18px;
+    line-height: 26px;
+    
+  }
+  
+  .except h3{ 
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media(max-width: 1479px){
+  
+  .except h3{
+    
+    font-size: 14px;
+    line-height: 18px;
+    
+
+  }
+  .except4 h3{
+    
+    font-size: 14px;
+    line-height: 18px;
+    
+
+  }
+}
+@media(max-width: 900px){
+  .features{
+    align-items: center;
+    flex-direction: column;
+  }
+  .feature p{
+    font-size: 14px;
+    line-height: 18px;   
+  }
+  .feature h3{    
+      font-size: 16px;
+      line-height: 20px;   
+  }
+  .except h3{   
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .except4 h3{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature{
+    display: flex;
+    margin-right: 0;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-bottom: 25px;
+    width: 50%;
+}  
+}
+@media(max-width: 800px){
+  .feature{
+    width: 40%;
+  }
+  .feature p{
+    font-size: 12px;
+    line-height: 16px;   
+  }
+  .feature img{
+    color: #156963;
+    height: 36px;
+    width: auto;
+    margin-right: 7%;
+  }
+}
+@media(max-width: 497px){
+  .feature p{
+    font-size: 8px;
+    line-height: 12px;   
+  }
+  .feature{
+    width: 35%;
+  }
+  .feature h3{    
+    font-size: 12px;
+    line-height: 14px;   
+}
+.except h3{   
+  font-size: 12px;
+  line-height: 14px;
+}
+.except4 h3{
+  font-size: 12px;
+  line-height: 14px;
+}
+.feature img{
+  
+  height: 28px;
+  
+}
+}
+@media(max-width: 324px){
+  .features{
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  .feature p{
+    font-size: 6px;
+    line-height: 10px;   
+  }
+  .feature h3{    
+    font-size: 10px;
+    line-height: 12px;   
+}
+.except h3{   
+  font-size: 10px;
+  line-height: 12px;
+}
+.except4 h3{
+  font-size: 10px;
+  line-height: 12px;
+}
+.feature img{
+  
+  height: 24px;
+  
+}
+}

@@ -1,0 +1,149 @@
+.featured-plants{
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    margin-bottom: 7%;
+  }
+  
+  .featured-h{
+    border-bottom: 1px solid #E0E0E0;
+    
+  }
+  
+  .featured-h h3{
+    width: 162px;
+    height: 24px;
+    margin-left: 40%; 
+    font-family: 'Montserrat';
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 2%;
+  
+    color: #000000;
+    align-items: center;
+  
+  }
+  .plants {
+    display: flex;
+    margin-top: 31px;
+    justify-content: space-around;
+    
+  }
+
+ 
+  h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+  }
+  .featured-plants p{
+    margin-bottom: 6px;
+    text-align: center;
+    
+  }
+  .featured-plants img{
+    margin-bottom: 10px;
+    width: auto;
+    height: 266.67px;
+    background-color: #F3F4F6;
+  }
+
+
+  @media(max-width: 1394px){
+    .featured-plants img{
+      height: 196.67px;
+      
+    }
+  }
+    @media(max-width: 1192px){
+      .featured-plants img{
+        height: 176.67px;
+        
+    }
+  }
+  @media(max-width: 1109px){
+    .featured-plants img{
+      height: 136.67px;
+      
+  }
+}
+@media (max-width: 893){
+  .featured-plants img{
+    height: 110.67px;
+  }
+  .change-text {
+    font-size: 10px;
+  }
+  .change-h{
+    font-size: 12px;
+  }
+  
+}
+@media (max-width: 640px){
+  .featured-plants img{
+    height: 100.67px;
+  }
+  .change-text {
+    font-size: 10px;
+  }
+  .change-h{
+    font-size: 12px;
+  }
+  .featured-h h3{
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 0;
+  
+  }
+}
+@media (max-width: 562px){
+  .featured-plants img{
+    height: 80.67px;
+    margin-bottom: 10%;
+  }
+  .change-text {
+    font-size: 8px;
+  }
+  .change-h{
+    font-size: 10px;
+  }
+  .featured-h h3{
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 0;
+  }
+  h4{
+    line-height: 0;
+  }
+}
+@media (max-width: 456px){
+  .plants{
+    flex-direction: column;
+  }
+  .display-plants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+  .featured-plants img{
+    height: 100.67px;
+  }
+  .featured-h h3{
+    margin-left: 30%;
+  }
+  .change-text{
+    font-size: 12px;
+  }
+  .featured-plants img {
+     margin-bottom: 4px;
+  }
+}
