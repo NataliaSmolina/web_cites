@@ -1,0 +1,39 @@
+.psychology{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 7%;
+  }
+  .pic-n-text{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  .pic-n-text p{
+    width: 506.69px;
+  height: 140px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #2C1500;
+  
+  
+  }
+  .pic-n-text h3{
+    width: 522px;
+  height: 112px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  
+  color: #2C1500;
+  }
+ 

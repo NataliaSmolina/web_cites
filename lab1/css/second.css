@@ -1,0 +1,49 @@
+.features{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 7% 6%;
+}
+.feature{
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    margin-right: 3%;
+    
+}
+.feature-last{
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    margin: 0;
+}
+.features h3{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #156963;
+}
+  
+.img-h{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.feature div{
+  display: flex; 
+  justify-content: flex-start;
+}
+.feature p{
+  margin-top: 7%;
+}
+.feature img{
+  color: #156963;
+  height: 48px;
+  width: auto;
+  margin-right: 7%;
+}
+.picture{
+  margin-right: 3%;
+}
+.button a{
+  color: white;
+}

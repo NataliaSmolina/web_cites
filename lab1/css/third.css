@@ -1,0 +1,58 @@
+.featured-plants{
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    margin-bottom: 7%;
+  }
+  
+  .featured-h{
+    border-bottom: 1px solid #E0E0E0;
+    
+  }
+  
+  .featured-h h3{
+    width: 162px;
+    height: 24px;
+    margin-left: 40%; 
+    font-family: 'Montserrat';
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 2%;
+  
+    color: #000000;
+    align-items: center;
+  
+  }
+  .plants {
+    display: flex;
+    margin-top: 31px;
+    justify-content: space-around;
+    
+  }
+
+ 
+  h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+  }
+  .featured-plants p{
+    margin-bottom: 6px;
+    text-align: center;
+    
+  }
+  .featured-plants img{
+    margin-bottom: 10px;
+    width: auto;
+    height: 266.67px;
+    background-color: #F3F4F6;
+  }
+
+
+  
