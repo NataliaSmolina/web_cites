@@ -1,5 +1,5 @@
 let lineNumber=0;
-let c = 0;
+
 function createTable(){
     if (document.getElementById('table') !=null){
 
@@ -9,6 +9,14 @@ function createTable(){
         table.setAttribute('id','table')
         document.getElementById("add_line").removeAttribute("disabled");
         document.body.append(table);
+        lineNumber = lineNumber + 1;
+        if (lineNumber==1){
+            document.getElementById("delete_line").removeAttribute("disabled");
+            document.getElementById("num").removeAttribute("disabled");
+        }
+        let tab = table.insertRow();
+        tab.insertCell().append(lineNumber);
+        tab.insertCell().append("have a nice day");
     }
 }
 function addLine(){
