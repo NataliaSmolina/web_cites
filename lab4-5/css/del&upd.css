@@ -1,0 +1,92 @@
+
+.form-table{
+    font-family: sans-serif;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;  /*по горизонтальной оси*/
+    justify-content: center; /*по вертикальной оси*/
+    min-height: 100vh;
+    flex-direction: column;
+    margin-right: 20%;
+    
+    min-width: 120vh;
+}
+li a{
+    color: white;
+    padding: 1vh;
+}
+
+.menu{
+    margin-right: 20%;
+}
+.menu li{
+    display: inline-block;
+    background-color: rgb(127, 127, 127);
+    margin-left: 1.5vh;
+    padding: 1.5vh;
+
+}
+.whole{
+    display: flex;
+    align-items: flex-end;
+   
+    flex-direction: column;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+form{
+    
+    
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+    padding: 5%;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+input{
+    border: unset;
+    border-bottom: 2px solid gray;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 2%;
+    outline: none;
+}
+button{
+    border: unset;
+    padding: 3%;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    
+}
+.message{
+    border: 3px solid rgb(230, 108, 108);
+    background-color: rgb(230, 108, 108);
+    color: white;
+    padding: 3%;
+    text-align: center;
+    font-weight: bold;
+}
+.mes_green{
+    border: 3px solid rgb(51, 163, 43);
+    background-color: rgb(51, 163, 43);
+    color: white;
+    padding: 3%;
+    text-align: center;
+    font-weight: bold;
+}
+td{
+    border: 1px solid rgb(127, 127, 127);
+    background-color: rgb(127, 127, 127);
+    color: white;
+    
+}
+table{
+    margin-bottom: 10vh;
+    
+    max-height: 10vh;
+}
